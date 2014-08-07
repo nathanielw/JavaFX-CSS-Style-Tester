@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package styletester;
 
 import java.io.File;
@@ -18,13 +12,7 @@ import javafx.scene.control.Label;
 import javafx.stage.FileChooser;
 import javafx.stage.FileChooser.ExtensionFilter;
 import javafx.stage.Stage;
-import javafx.stage.Window;
-import org.w3c.dom.css.CSSStyleSheet;
 
-/**
- *
- * @author nathaniel
- */
 public class MainWindowController implements Initializable {
     
     @FXML
@@ -90,5 +78,4 @@ public class MainWindowController implements Initializable {
     public void setup(Scene scene) {
         this.scene = scene;
     }
-    
 }
